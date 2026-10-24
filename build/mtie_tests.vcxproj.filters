@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Manqoba\Downloads\PROJECTS\mini_transformer_inference_engine\mini_transformer_inference_engine\tests\tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Manqoba\Downloads\PROJECTS\mini_transformer_inference_engine\mini_transformer_inference_engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A2F9C4EC-896A-3DF8-A130-32FB8357680D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

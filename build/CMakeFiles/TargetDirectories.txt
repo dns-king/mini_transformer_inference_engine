@@ -1,0 +1,7 @@
+C:/Users/Manqoba/Downloads/PROJECTS/mini_transformer_inference_engine/mini_transformer_inference_engine/build/CMakeFiles/mtie.dir
+C:/Users/Manqoba/Downloads/PROJECTS/mini_transformer_inference_engine/mini_transformer_inference_engine/build/CMakeFiles/mtie_cli.dir
+C:/Users/Manqoba/Downloads/PROJECTS/mini_transformer_inference_engine/mini_transformer_inference_engine/build/CMakeFiles/mtie_make_demo.dir
+C:/Users/Manqoba/Downloads/PROJECTS/mini_transformer_inference_engine/mini_transformer_inference_engine/build/CMakeFiles/mtie_tests.dir
+C:/Users/Manqoba/Downloads/PROJECTS/mini_transformer_inference_engine/mini_transformer_inference_engine/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Manqoba/Downloads/PROJECTS/mini_transformer_inference_engine/mini_transformer_inference_engine/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Manqoba/Downloads/PROJECTS/mini_transformer_inference_engine/mini_transformer_inference_engine/build/CMakeFiles/ZERO_CHECK.dir

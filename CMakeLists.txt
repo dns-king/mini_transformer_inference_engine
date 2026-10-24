@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.20)
+project(mini_transformer_inference_engine VERSION 1.0.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+add_library(mtie src/transformer.cpp)
+target_include_directories(mtie PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+if(MSVC)
+  target_compile_options(mtie PRIVATE /W4 /permissive-)
+else()
+  target_compile_options(mtie PRIVATE -Wall -Wextra -Wpedantic)
+endif()
+
+add_executable(mtie_cli src/main.cpp)
+target_link_libraries(mtie_cli PRIVATE mtie)
+add_executable(mtie_make_demo src/make_demo.cpp)
+target_link_libraries(mtie_make_demo PRIVATE mtie)
+add_executable(mtie_tests tests/tests.cpp)
+target_link_libraries(mtie_tests PRIVATE mtie)
+enable_testing()
+add_test(NAME mtie_tests COMMAND mtie_tests)
